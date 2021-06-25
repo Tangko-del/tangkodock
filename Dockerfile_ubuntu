@@ -1,0 +1,5 @@
+FROM ubuntu
+#CMD ["echo", "helo world"]
+
+ENTRYPOINT ["sleep"]
+CMD ["5"]
